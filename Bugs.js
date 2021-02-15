@@ -18,30 +18,20 @@ var bugs = [
     //     img: <img/>
     // }
 ];
-function bugsSetting(i) {
-    bugs[i].img.style.position = "absolute";
-    bugs[i].img.style.width = 30 + "px";
-    bugs[i].img.style.height = 20 + "px";
-}
-
 function randomGenerator(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
 
+function bugsSetting(i) {
+    bugs[i].img.style.position = "absolute";
+    bugs[i].img.style.width = 31230 + "px";
+    bugs[i].img.style.height = 20 + "px";
+}
+
+
 var selectedId = null;
 
 function bugControl() {
-    let Hlimit = window.innerWidth;
-    let Vlimit = window.innerHeight;
-    for (let i = 0; i < bugs.length; i++) {
-        let top = bugs[i].img.offsetTop;
-        let left = bugs[i].img.offsetLeft;
-        top += Math.sin(bugs[i].direction * DEGREE_TO_RAD) * PIXEL_PER_MOVE;
-        left += Math.cos(bugs[i].direction * DEGREE_TO_RAD) * PIXEL_PER_MOVE;
-        top = (top + Vlimit) % Vlimit;
-        left = (left + Hlimit) % Hlimit;
-        // top = Math.max(PIXEL_PER_MOVE, Math.min(Vlimit - PIXEL_PER_MOVE, top));
-        // left = Math.max(PIXEL_PER_MOVE, Math.min(Hlimit - PIXEL_PER_MOVE, left));
 
         // if (top < -BUG_TAIL) {
         //     top = Vlimit;
