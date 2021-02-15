@@ -1,4 +1,5 @@
 Quang Huy vi dai
+Quang Hieu vi dai
 
 const PIXEL_PER_MOVE = 10;
 const NEW_DIRECTION_LIMIT = 10;
