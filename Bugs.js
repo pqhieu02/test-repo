@@ -11,6 +11,8 @@ const BUG_QUANTITY = 200;
 const WIDTH_STARTING_POINT = window.innerWidth / 2;
 const HEIGHT_STARTING_POINT = window.innerHeight / 2;
 
+dota is good
+
 var nav = document.getElementsByClassName("nav");
 var Hlimit = window.innerWidth, 
     Vlimit = window.innerHeight;
