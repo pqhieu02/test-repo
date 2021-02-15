@@ -1,6 +1,11 @@
 Quang Huy vi dai
 Quang Hieu vi dai
 dota
+asdasdjas
+d
+sdf
+sdf
+sdfjsdfjksdf
 
 const PIXEL_PER_MOVE = 10;
 const NEW_DIRECTION_LIMIT = 10;
